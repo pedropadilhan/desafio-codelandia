@@ -119,3 +119,12 @@ article h3{
 article p {
     color: var(--texto);
 }
+
+.data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--texto);
+}
