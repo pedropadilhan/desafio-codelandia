@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+/* Variaveis */
+:root {
+    --branco: #fefefe;
+    --branco2: #ebe9ea;
+    --cinza: #474747;
+    --preto: #181818;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos */
+html,
+body {
+    font-family: "Montserrat";
+}
+
+div#cabecalho {
+    height: 50px;
+    background-color: var(--preto);
+}
+
+div#texto-cabecalho {
+    padding-top: 15px;
+    color: var(--branco);
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0px;
+}
+
+main div#bg {
+    color: var(--branco);
+    height: 378px;
+    background-color: #181818f4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main div#texto-bg {
+    position: absolute;
+    top: 35%;
+    right: 65%;
+}
