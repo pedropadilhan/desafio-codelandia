@@ -20,13 +20,16 @@ body {
     font-family: "Montserrat";
 }
 
+/* CABECALHO */
 div#cabecalho {
     height: 50px;
     background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div#texto-cabecalho {
-    padding-top: 15px;
     color: var(--branco);
     text-align: center;
 }
@@ -37,18 +40,57 @@ header h1 {
     padding: 15px 0px;
 }
 
+/* MAIN */
 main div#bg {
     color: var(--branco);
     height: 378px;
+    
     background-color: #181818f4;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 30px;
 }
 
 main div#texto-bg {
-    position: absolute;
-    top: 35%;
-    right: 65%;
+    padding: 129px 300px  121px 100px;
+    float: left;
+}
+
+main div#texto-main{
+    text-align: center;
+}
+
+main div#texto-main p{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+main div#flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main div.produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 302px;
+    background-color: var(--branco2);
+    margin: 19px 13px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: var(--branco);
+    background-color: #181818;
+    margin-top: 50px;
 }
