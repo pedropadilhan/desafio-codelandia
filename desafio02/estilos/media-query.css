@@ -1,0 +1,24 @@
+@media screen and (max-width:790px) {
+    main div#bg {
+        color: var(--branco);
+        height: 378px;
+        
+        background-color: #181818f4;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+    
+    main div#bg {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main div#texto-bg {
+        align-self: center;
+    }
+    
+    
+}

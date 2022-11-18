@@ -42,6 +42,9 @@ header h1 {
 
 /* MAIN */
 main div#bg {
+    display: flex;
+    justify-content: left;
+
     color: var(--branco);
     height: 378px;
     
@@ -54,8 +57,13 @@ main div#bg {
 }
 
 main div#texto-bg {
-    padding: 129px 300px  121px 100px;
-    float: left;
+    padding-left: 50px;
+    align-self: center;
+}
+
+main div#texto-bg p{
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 main div#texto-main{
