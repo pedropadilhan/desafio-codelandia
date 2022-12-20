@@ -17,7 +17,8 @@
     }
     
     main div#texto-bg {
-        align-self: center;
+        position: relative;
+        left: 50%;
     }
     
     

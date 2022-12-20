@@ -57,8 +57,9 @@ main div#bg {
 }
 
 main div#texto-bg {
-    padding-left: 50px;
-    align-self: center;
+    position: relative;
+    top: 35%;
+    left: 10%;
 }
 
 main div#texto-bg p{

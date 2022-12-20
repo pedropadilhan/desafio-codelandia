@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@400;700&display=swap');
+
+:root {
+    --roxo: #6c63ff;
+    --roxo-claro: #D7D4FF;
+    --branco: #ffffff;
+    --branco-200: #f9f9f9;
+    --cinza: #555555;
+    --cinza-escuro: #2A2A2A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--branco-200);
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: var(--roxo-claro);
+}
+
+.conteudo {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header-info-titulo {
+    font-family: 'Merriweather';
+    font-size: 36px;
+    line-height: 47px;
+    color: var(--cinza-escuro);
+}
+
+#header-info-texto {
+    font-family: 'Lato';
+    font-size: 19px;
+    line-height: 32px;
+    margin-top: 18px;
+    color: var(--cinza);
+}
+
+.botao {
+    color: var(--branco);
+    font-family: 'Lato';
+    font-size: 20px;
+    padding: 16px 48px;
+    margin: 30px 0;
+    background: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    border: none;
+}
+
+.header-image {
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image img {
+    max-width: 400px;
+}
+
+@media (min-width: 900px) {
+    header {
+        width: 100%;
+        background-color: var(--roxo-claro);
+    }
+
+    .conteudo {
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row;
+        padding: 60px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-info {
+        max-width: 400px;
+    }
+
+    #header-info-titulo {
+        font-family: 'Merriweather';
+        font-size: 36px;
+        line-height: 47px;
+        color: var(--cinza-escuro);
+    }
+
+    #header-info-texto {
+        font-family: 'Lato';
+        font-size: 19px;
+        line-height: 32px;
+        margin-top: 18px;
+        color: var(--cinza);
+    }
+
+    .botao {
+        color: var(--branco);
+        font-family: 'Lato';
+        font-size: 20px;
+        padding: 16px 48px;
+        margin: 30px 0;
+        background: #6C63FF;
+        box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+        border-radius: 5px;
+        border: none;
+    }
+
+    .botao:hover {
+        background-color: #4a41f2;
+        cursor: pointer;
+    }
+
+    .botao:hover {
+        background-color: #4a41f2;
+        cursor: pointer;
+    }
+}
+
+/* MAIN */
+main {
+    background-color: var(--branco-200);
+}
+
+.card-container {
+    width: 100%;
+}
+
+.card-wrapper {
+    margin-top: 76px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: ;
+}
+
+.card {
+    max-width: 340px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-image1 {
+    background-color: #FF6363;
+    height: 200px;
+    max-width: 340px;
+}
+
+.card-image2 {
+    background-color: #63ECFF;
+    height: 200px;
+    max-width: 340px;
+}
+
+.card-image3 {
+    background-color: #F363FF;
+    height: 200px;
+    max-width: 340px;
+}
+
+.card-image4 {
+    background-color: #63FF73;
+    FF6363;
+    height: 200px;
+    max-width: 340px;
+}
+
+.card-image5 {
+    background-color:
+        #FFDD63;
+    height: 200px;
+    max-width: 340px;
+}
+
+.card-image6 {
+    background-color:
+        #6663FF;
+    height: 200px;
+    max-width: 340px;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content-titulo {
+    color: var(--cinza-escuro);
+    font-family: 'Merriweather';
+    margin-top: 24px;
+}
+
+.card-content-subtitulo {
+    color: var(--cinza);
+    font-family: 'Lato';
+    margin-top: 24px;
+}
+
+@media(min-width: 900px) {
+    .card-wrapper {
+        max-width: 1200px;
+        margin: 120px auto;
+        gap: 64px;
+    }
+
+    .card {
+        max-width: 340px;
+    }
+}
+
+/* FOOTER */
+.form-wrapper {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--roxo-claro);
+}
+
+.form-titulo {
+    font-family: 'Merriweather';
+    color: var(--cinza-escuro);
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+.campo,
+textarea {
+    margin-top: 24px;
+    width: 100%;
+    background-color: var(--branco);
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-size: 15px;
+    height: 65px;
+    color: var(--cinza);
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.botao-form {
+    width: 100%;
+}
+
+@media(min-width: 900px) {
+    .formulario {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
