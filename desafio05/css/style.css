@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-style: 'Poppins';
+}
+
+html {
+    color: white;
+    background-image: linear-gradient(to bottom, #628E75, #1A4855);
+    overflow: ;
+}
+
+/* HEADER */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+nav>img {
+    width: 100px;
+}
+
+nav>#rede-social {
+    display: flex;
+    gap: 15px;
+}
+
+/* MAIN */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+}
+
+#foto>img {
+    width: 400px;
+}
+
+
+#texto {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px 40px;
+}
+
+#texto h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#texto h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 109%;
+    margin-bottom: 15px;
+}
+
+#texto p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    max-width: 500px;    
+}
+
+/* Botoes */
+#botoes{
+    margin-top: 50px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    background: transparent;
+    height: 45px;
+    width: 225px;
+    border: 2px solid #658e76;
+    color: #fefefe;
+    padding: 8px 40px;
+    font-size: 24px;
+    font-weight: 400;
+    /*responsável por inclinar o botão*/
+    transform: skew(-24deg);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button>p {
+    /*responsável por desinclinar o texto*/
+    transform: skew(24deg);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+#cta-button{
+    background-color: #658E76;;
+}
+
+#cta-button img{
+
+}
+
+#trailer-button{
+    display: none;
+}
+
+@media (min-width:1040px) {
+    main {
+        margin: 149px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #foto {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    #foto>img {
+        width: 500px;
+    }
+    
+    
+    #texto {
+        font-family: 'Poppins';
+    }
+
+    
+
+    #botoes{
+        display: flex;
+        gap: 15px;
+    }
+
+    #trailer-button{
+        display: inline-flex;
+    } 
+}
