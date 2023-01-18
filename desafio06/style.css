@@ -8,6 +8,8 @@
 html {
     background: url(assets/image/background.jpg);
     background-size: cover;
+    background-position: center center;
+    height: 100vh;
 
 }
 
@@ -111,4 +113,20 @@ main img#capa-loki {
     background: #131318;
     border: 1px solid #FFFFFF;
     border-radius: 3px;
+}
+
+/* responsivo */
+@media (max-width:879px) {
+    #capa-loki{
+        display: none;
+    }
+
+    .wrapper{
+        max-width: 500px;
+        background-color: #19191F;
+    }
+
+    .info{
+        
+    }
 }
