@@ -1,5 +1,5 @@
 # Desafio 01
 - HTML e CSS
 ## Resultado:
-![2023-01-22 (1)](https://user-images.githubusercontent.com/89949855/213936650-7d78622c-18be-4998-ae02-9651e071d06b.png)
-![2023-01-22 (2)](https://user-images.githubusercontent.com/89949855/213936653-d8c4c30b-b6e4-4b3b-863a-ed26b2d3c4a3.png)
+![screencapture-127-0-0-1-5501-desafio01-index2-html-2023-01-22-16_54_42](https://user-images.githubusercontent.com/89949855/213937367-0c5f4d5d-6470-4d81-a11b-3b18450f033c.png)
+![screencapture-127-0-0-1-5501-desafio01-index2-html-2023-01-22-16_55_25](https://user-images.githubusercontent.com/89949855/213937371-1f4be621-04c8-4aed-84ec-1dd0cfea5cb3.png)
