@@ -6,4 +6,5 @@
 
 ### PROBLEMA COM RESPONSIVIDADE
 - Ainda não consegui reposicionar a barra com tempo, estrelas e ano. Tambem preciso arrumar o background-size nesta versão (isso eu sei fazer).
--![screencapture-127-0-0-1-5501-desafio06-index-html-2023-01-22-17_09_48](https://user-images.githubusercontent.com/89949855/213937972-a1dfb83b-d04f-451a-ae61-a821627a86ad.png)
+
+![screencapture-127-0-0-1-5501-desafio06-index-html-2023-01-22-17_09_48](https://user-images.githubusercontent.com/89949855/213937972-a1dfb83b-d04f-451a-ae61-a821627a86ad.png)
